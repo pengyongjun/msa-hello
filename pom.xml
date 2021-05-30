@@ -41,7 +41,7 @@
 				<artifactId>docker-maven-plugin</artifactId>
 				<version>1.2.2</version>
 				<configuration>
-					<imageName>${project.groupId}/${project.artifactId}:${project.version}</imageName>
+					<imageName>docker.io/pengyongjun3/${project.artifactId}:${project.version}</imageName>
 					<dockerDirectory>${project.build.outputDirectory}</dockerDirectory>
 					<resources>
 						<resource>
