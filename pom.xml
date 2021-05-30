@@ -30,6 +30,7 @@
 	</dependencies>
 
 	<build>
+		<finalName>msc-hello</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
