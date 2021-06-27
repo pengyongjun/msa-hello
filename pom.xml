@@ -42,7 +42,7 @@
 	</dependencies>
 
 	<build>
-		<finalName>msa-hello</finalName>
+		<finalName>msa-service</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
