@@ -6,16 +6,16 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="msa-hello" />
+        <module name="msa-service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="msa-hello" target="1.8" />
+      <module name="msa-service" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="msa-hello" options="-parameters" />
+      <module name="msa-service" options="-parameters" />
     </option>
   </component>
 </project>
